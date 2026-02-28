@@ -29,11 +29,11 @@ print("=" * 60)
 
 # ------------------ SPEED TEST ------------------ #
 print("\n📥 Testing Download Speed...")
-time.sleep(1)
+#time.sleep(1)
 download_speed = st.download() / 1_000_000  # Convert to Mbps
 
 print("📤 Testing Upload Speed...")
-time.sleep(1)
+#time.sleep(1)
 upload_speed = st.upload() / 1_000_000  # Convert to Mbps
 
 
@@ -47,3 +47,4 @@ print(f"⬆️  Upload Speed   : {round(upload_speed, 2)} Mbps")
 
 print("=" * 60)
 print("\n✅ Test Completed Successfully!\n")
+
